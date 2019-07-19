@@ -1,1 +1,40 @@
 // Mixins Here
+
+.btn-mixin(@btn-color:#338377, @width: 85%, @font:white){
+    background-color: @btn-color;
+    width: @width;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @font;
+    
+    &:hover{
+        background-color: lightblue;
+        color: black;
+        
+    }
+}
+
+
+
+// Mixin Usage:
+// Copy
+// .font-class {
+//   color: black;
+//   font-size: 18px;
+//   text-align: center;
+// }
+
+// .box-class {
+//   width: 100px;
+//   height: 100px;
+//   background: gray;
+// }
+
+// .example-mixin {
+//   .font-class();
+//   .box-class();
+// }

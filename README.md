@@ -76,7 +76,7 @@ Follow these steps for completing your project.
 
 Your finished project must include all of the following requirements:
 
-### Import LESS Files
+### Import LESS Files DONE
 
 * [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
@@ -92,7 +92,7 @@ Your finished project must include all of the following requirements:
 
 _You will know everything is working properly when you see the styles enabled for the provided content._  
 
-### Home Page - Desktop HTML & LESS
+### Home Page - Desktop HTML & LESS 
 
 * [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
@@ -106,11 +106,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+* [ !] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+* [ !]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [ !] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
