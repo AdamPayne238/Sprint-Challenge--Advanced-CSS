@@ -12,13 +12,26 @@
     color: @font;
     
     &:hover{
-        background-color: lightblue;
-        color: black;
-        
+        .hover-mixin();
     }
 }
 
+.btn{
+    @media @phone{
+        .button-mixin();
+      }
+}
 
+
+.button-mixin{
+    margin: auto;
+    padding: 0;
+}
+
+.hover-mixin{
+    background-color: lightblue;
+    color: black;
+}
 
 // Mixin Usage:
 // Copy
@@ -27,6 +40,7 @@
 //   font-size: 18px;
 //   text-align: center;
 // }
+
 
 // .box-class {
 //   width: 100px;
@@ -37,4 +51,5 @@
 // .example-mixin {
 //   .font-class();
 //   .box-class();
+//.button-class();
 // }
